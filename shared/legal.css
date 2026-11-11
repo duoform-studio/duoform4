@@ -1,0 +1,13 @@
+/* Shared privacy and cookie notice for project microsites */
+.site-cookie{position:fixed;z-index:10000;left:18px;right:18px;bottom:18px;margin:auto;width:min(560px,calc(100% - 36px));padding:17px 18px;background:#f4f0e7;color:#24231f;border:1px solid rgba(0,0,0,.12);border-radius:16px;box-shadow:0 14px 50px rgba(0,0,0,.24);font:13px/1.55 Inter,system-ui,sans-serif;display:none}
+.site-cookie.is-visible{display:block}
+.site-cookie p{margin:0 0 12px}
+.site-cookie a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+.site-cookie-actions{display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+.site-cookie button{border:0;border-radius:30px;padding:10px 15px;background:#20211d;color:#fff;font-family:inherit;font-size:12px;font-weight:600;line-height:1.2;cursor:pointer}
+.site-cookie button:hover{opacity:.85}
+.site-cookie .site-cookie-link{background:transparent;color:#24231f;border:1px solid rgba(0,0,0,.2);text-decoration:none}
+.site-legal-links{display:flex;gap:14px;flex-wrap:wrap;margin:18px 0 0;font-size:12px}
+.site-legal-links a{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:600px){.site-cookie{left:10px;right:10px;bottom:10px;width:auto;padding:15px}.site-cookie-actions button{flex:1}}
+@media(prefers-reduced-motion:reduce){.site-cookie{transition:none}}

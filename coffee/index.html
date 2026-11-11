@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#dce2c9">
+  <meta name="description" content="SOLOKO — кофе, десерты и место для красивых пауз.">
+  <meta property="og:title" content="SOLOKO — кофе & десерты">
+  <meta property="og:description" content="Кофе, макароны, выпечка и немного солнца.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/cafe-interior.jpeg">
+  <title>SOLOKO — кофе & десерты</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="SOLOKO"><span>SOLO</span><i>KO</i></a>
+    <nav class="nav">
+      <a href="#today">сегодня</a>
+      <a href="#menu">меню</a>
+      <a href="#space">пространство</a>
+      <a href="#story">о нас</a>
+      <a href="#visit">контакты</a>
+    </nav>
+    <div class="header-right">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Утро / вечер" title="Утро / вечер">◐</button>
+      <a class="header-cta magnetic" href="#order">заказать к приходу <span>↗︎</span></a>
+      <button class="menu-toggle" aria-label="Открыть меню"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> кофе & десерты · каждый день</p>
+        <h1>Место для<br><em>вкусных</em><br>пауз.</h1>
+        <p class="hero-lead">Кофе, макароны, выпечка и немного солнца. Заходи за любимым напитком — оставайся за атмосферой.</p>
+        <div class="hero-actions">
+          <a class="button button-dark magnetic" href="#menu">смотреть меню <span>↓</span></a>
+          <a class="text-link" href="#order">заказать к приходу <span>↗︎</span></a>
+        </div>
+      </div>
+      <div class="hero-visual reveal reveal-delay">
+        <div class="hero-card">
+          <img src="assets/cafe-interior.jpeg" alt="Интерьер кофейни и витрина с десертами">
+          <div class="hero-sticker">made<br>with<br>care</div>
+          <div class="hero-caption"><span>01</span><span>SOLOKO / café</span></div>
+        </div>
+        <div class="floating-note note-pink">свежая<br>витрина</div>
+        <div class="floating-note note-teal">slow<br>mornings</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Специализация">
+      <div class="ticker-track">
+        <span>кофе</span><b class="sparkle-mark" aria-hidden="true"><svg class="sparkle-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 14.2 9.8 21.5 12l-7.3 2.2L12 21.5l-2.2-7.3L2.5 12l7.3-2.2L12 2.5Z"/></svg></b><span>макарон</span><b class="sparkle-mark" aria-hidden="true"><svg class="sparkle-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 14.2 9.8 21.5 12l-7.3 2.2L12 21.5l-2.2-7.3L2.5 12l7.3-2.2L12 2.5Z"/></svg></b><span>выпечка</span><b class="sparkle-mark" aria-hidden="true"><svg class="sparkle-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 14.2 9.8 21.5 12l-7.3 2.2L12 21.5l-2.2-7.3L2.5 12l7.3-2.2L12 2.5Z"/></svg></b><span>чай</span><b class="sparkle-mark" aria-hidden="true"><svg class="sparkle-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 14.2 9.8 21.5 12l-7.3 2.2L12 21.5l-2.2-7.3L2.5 12l7.3-2.2L12 2.5Z"/></svg></b>
+        <span>кофе</span><b class="sparkle-mark" aria-hidden="true"><svg class="sparkle-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 14.2 9.8 21.5 12l-7.3 2.2L12 21.5l-2.2-7.3L2.5 12l7.3-2.2L12 2.5Z"/></svg></b><span>макарон</span><b class="sparkle-mark" aria-hidden="true"><svg class="sparkle-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 14.2 9.8 21.5 12l-7.3 2.2L12 21.5l-2.2-7.3L2.5 12l7.3-2.2L12 2.5Z"/></svg></b><span>выпечка</span><b class="sparkle-mark" aria-hidden="true"><svg class="sparkle-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 14.2 9.8 21.5 12l-7.3 2.2L12 21.5l-2.2-7.3L2.5 12l7.3-2.2L12 2.5Z"/></svg></b><span>чай</span><b class="sparkle-mark" aria-hidden="true"><svg class="sparkle-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 14.2 9.8 21.5 12l-7.3 2.2L12 21.5l-2.2-7.3L2.5 12l7.3-2.2L12 2.5Z"/></svg></b>
+      </div>
+    </section>
+
+    <section id="today" class="today-section section-pad">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow"><span></span> сегодня на витрине</p>
+          <h2>Повод<br><em>зайти сейчас.</em></h2>
+        </div>
+        <p>Свежие позиции дня. Меняем утром — пока есть.</p>
+      </div>
+      <div class="today-grid">
+        <article class="today-card reveal"><span class="today-tag">limited</span><h3>Фисташковый макарон</h3><p>Хрустящая оболочка, крем с настоящей фисташкой.</p><strong>220 ₽</strong></article>
+        <article class="today-card reveal reveal-delay"><span class="today-tag">bakery</span><h3>Круассан с миндалём</h3><p>Тёплый, с хрустящей корочкой. Лучше до полудня.</p><strong>280 ₽</strong></article>
+        <article class="today-card reveal"><span class="today-tag">season</span><h3>Розовый раф</h3><p>Мягкий, цветочный, очень «soloko».</p><strong>320 ₽</strong></article>
+      </div>
+      <div class="season-banner reveal">
+        <div>
+          <p class="eyebrow"><span></span> сезонное</p>
+          <h3>Тыквенный латте — до воскресенья</h3>
+          <p>Пряный, тёплый, ограниченный тираж.</p>
+        </div>
+        <strong>от 340 ₽</strong>
+      </div>
+    </section>
+
+    
+    <section id="menu" class="menu-section section-pad">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow"><span></span> меню</p>
+          <h2>То, ради чего<br><em>заходят.</em></h2>
+        </div>
+        <p>Выбери раздел — откроются все позиции. Нажми на карточку, чтобы увидеть детали.</p>
+      </div>
+
+      <div class="menu-tabs reveal" id="menuTabs" role="tablist">
+        <button type="button" class="mtab active" data-tab="coffee" role="tab">кофе</button>
+        <button type="button" class="mtab" data-tab="tea" role="tab">чай</button>
+        <button type="button" class="mtab" data-tab="sweet" role="tab">десерты</button>
+        <button type="button" class="mtab" data-tab="bakery" role="tab">выпечка</button>
+      </div>
+
+      <div class="menu-panels">
+        <!-- COFFEE -->
+        <div class="menu-panel active" data-panel="coffee" id="panel-coffee">
+          <div class="menu-grid menu-grid-items">
+            <article class="menu-card card-sage reveal" data-item="espresso"><div class="card-top"><span>01</span><span>shot</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Эспрессо</h3><p>Короткий и крепкий. Основа всего меню.</p><div class="price">160 ₽</div></article>
+            <article class="menu-card card-sage reveal" data-item="americano"><div class="card-top"><span>02</span><span>classic</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Американо</h3><p>Эспрессо и вода. Чистый вкус зерна.</p><div class="price">190 ₽</div></article>
+            <article class="menu-card card-sage reveal" data-item="cappuccino"><div class="card-top"><span>03</span><span>milk</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Капучино</h3><p>Эспрессо, молоко и мягкая пенка.</p><div class="price">240 ₽</div></article>
+            <article class="menu-card card-sage reveal" data-item="latte"><div class="card-top"><span>04</span><span>milk</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1561882468-9110e03e0f78?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Латте</h3><p>Больше молока, мягче вкус. Для долгой паузы.</p><div class="price">270 ₽</div></article>
+            <article class="menu-card card-sage reveal" data-item="flatwhite"><div class="card-top"><span>05</span><span>milk</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Флэт уайт</h3><p>Эспрессо и микропена. Плотнее капучино.</p><div class="price">280 ₽</div></article>
+            <article class="menu-card card-sage reveal" data-item="raf"><div class="card-top"><span>06</span><span>sweet</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Раф / розовый раф</h3><p>Сливки, ваниль, ягодная нота.</p><div class="price">от 300 ₽</div></article>
+            <article class="menu-card card-sage reveal" data-item="matcha"><div class="card-top"><span>07</span><span>matcha</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Матча латте</h3><p>Японский чай матча на молоке.</p><div class="price">290 ₽</div></article>
+            <article class="menu-card card-sage reveal" data-item="pumpkin"><div class="card-top"><span>08</span><span>season</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Тыквенный латте</h3><p>Пряный сезонный. До воскресенья.</p><div class="price">340 ₽</div></article>
+          </div>
+        </div>
+
+        <!-- TEA -->
+        <div class="menu-panel" data-panel="tea" id="panel-tea">
+          <div class="menu-grid menu-grid-items">
+            <article class="menu-card card-teal reveal" data-item="rose-tea"><div class="card-top"><span>01</span><span>tea</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Розовый чай</h3><p>Ягодная нота и красивый цвет.</p><div class="price">260 ₽</div></article>
+            <article class="menu-card card-teal reveal" data-item="green-tea"><div class="card-top"><span>02</span><span>tea</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Зелёный / сенча</h3><p>Лёгкий, чистый, без тяжести.</p><div class="price">220 ₽</div></article>
+            <article class="menu-card card-teal reveal" data-item="jasmine"><div class="card-top"><span>03</span><span>tea</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Жасмин</h3><p>Цветочный аромат, мягкое послевкусие.</p><div class="price">230 ₽</div></article>
+            <article class="menu-card card-teal reveal" data-item="cacao"><div class="card-top"><span>04</span><span>cacao</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Какао</h3><p>Густой, на молоке. Можно с маршмеллоу.</p><div class="price">250 ₽</div></article>
+            <article class="menu-card card-teal reveal" data-item="lemonade"><div class="card-top"><span>05</span><span>cold</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1621263764928-df1444c5e859?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Лимонад дня</h3><p>Домашний, сезонная рецептура.</p><div class="price">280 ₽</div></article>
+            <article class="menu-card card-teal reveal" data-item="ginger"><div class="card-top"><span>06</span><span>warm</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Имбирный чай</h3><p>Согревает. Мёд по желанию.</p><div class="price">240 ₽</div></article>
+          </div>
+        </div>
+
+        <!-- SWEET -->
+        <div class="menu-panel" data-panel="sweet" id="panel-sweet">
+          <div class="menu-grid menu-grid-items">
+            <article class="menu-card card-pink reveal" data-item="macaron"><div class="card-top"><span>01</span><span>sweet</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Макарон</h3><p>Фисташка, малина, ваниль, шоколад — по витрине.</p><div class="price">от 190 ₽</div></article>
+            <article class="menu-card card-pink reveal" data-item="cake"><div class="card-top"><span>02</span><span>daily</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Пирожное дня</h3><p>Меняем рецепт. Спроси на витрине.</p><div class="price">320 ₽</div></article>
+            <article class="menu-card card-pink reveal" data-item="cheesecake"><div class="card-top"><span>03</span><span>cold</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Чизкейк</h3><p>Нежный, с ягодным топпингом.</p><div class="price">350 ₽</div></article>
+            <article class="menu-card card-pink reveal" data-item="tart"><div class="card-top"><span>04</span><span>tart</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Тарталетка</h3><p>Хрустящая основа, сезонный крем.</p><div class="price">290 ₽</div></article>
+            <article class="menu-card card-pink reveal" data-item="wafer"><div class="card-top"><span>05</span><span>crisp</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Вафельная трубочка</h3><p>Хруст и крем. Классика детства.</p><div class="price">180 ₽</div></article>
+            <article class="menu-card card-pink reveal" data-item="brownie"><div class="card-top"><span>06</span><span>choco</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Брауни</h3><p>Плотный шоколадный. С орехом или без.</p><div class="price">270 ₽</div></article>
+          </div>
+        </div>
+
+        <!-- BAKERY -->
+        <div class="menu-panel" data-panel="bakery" id="panel-bakery">
+          <div class="menu-grid menu-grid-items">
+            <article class="menu-card card-cream reveal" data-item="croissant"><div class="card-top"><span>01</span><span>classic</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Круассан</h3><p>Слоёный, масляный, с хрустом.</p><div class="price">220 ₽</div></article>
+            <article class="menu-card card-cream reveal" data-item="almond"><div class="card-top"><span>02</span><span>almond</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Миндальный круассан</h3><p>С кремом и лепестками миндаля.</p><div class="price">280 ₽</div></article>
+            <article class="menu-card card-cream reveal" data-item="bun"><div class="card-top"><span>03</span><span>daily</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Булочка / слойка дня</h3><p>То, что только из печи.</p><div class="price">230 ₽</div></article>
+            <article class="menu-card card-cream reveal" data-item="bread"><div class="card-top"><span>04</span><span>bread</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Хлеб на закваске</h3><p>Кусок свежего. С маслом или сыром.</p><div class="price">от 120 ₽</div></article>
+            <article class="menu-card card-cream reveal" data-item="sandwich"><div class="card-top"><span>05</span><span>savory</span></div><div class="menu-photo"><img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80" alt="" loading="lazy"></div><h3>Сэндвич дня</h3><p>На чиабатте. Начинка меняется.</p><div class="price">390 ₽</div></article>
+            <article class="menu-card card-cream reveal" data-item="cinnamon"><div class="card-top"><span>06</span><span>sweet</span></div><div class="menu-photo"><img src="assets/cinnamon-roll.jpg" alt="Синнабон" loading="lazy"></div><h3>Синнабон</h3><p>Корица, глазурь, тёплый.</p><div class="price">260 ₽</div></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section id="space" class="space-section section-pad">
+      <div class="space-image reveal">
+        <img src="assets/sunlight-interior.jpeg" alt="Солнечный уголок кофейни">
+        <span class="image-label">sun / 09:42</span>
+      </div>
+      <div class="space-copy reveal reveal-delay">
+        <p class="eyebrow"><span></span> пространство</p>
+        <h2>Свет, дерево<br>и <em>тишина.</em></h2>
+        <p>Мы собрали интерьер так, чтобы здесь хотелось задержаться. Утренний свет, тёплое дерево, мягкие цвета и витрина, к которой невозможно не подойти.</p>
+        <div class="stats">
+          <div><strong>07:30</strong><span>открываемся</span></div>
+          <div><strong>22:00</strong><span>закрываемся</span></div>
+          <div><strong>∞</strong><span>поводов зайти</span></div>
+        </div>
+        <a class="round-link magnetic" href="#visit" aria-label="Как нас найти">↗︎</a>
+      </div>
+    </section>
+
+    <section id="story" class="story-section section-pad">
+      <div class="story-title reveal">
+        <p class="eyebrow"><span></span> маленькая история</p>
+        <h2>Не просто<br><em>кофейня.</em></h2>
+      </div>
+      <div class="story-body reveal reveal-delay">
+        <div class="quote-mark">“</div>
+        <p class="big-quote">Место, где можно взять кофе с собой. Или остаться ещё на десять минут. А потом ещё на десять.</p>
+        <p class="small-copy">SOLOKO — про простые ритуалы, которые делают обычный день чуть красивее.</p>
+      </div>
+    </section>
+
+    <section class="ritual-section section-pad">
+      <div class="section-heading reveal"><div><p class="eyebrow"><span></span> ритуал</p><h2>Три шага<br><em>до чашки.</em></h2></div></div>
+      <div class="ritual-steps">
+        <article class="ritual-step reveal"><span>01</span><h3>Зерно</h3><p>Свежий помол под эспрессо.</p></article>
+        <article class="ritual-step reveal reveal-delay"><span>02</span><h3>Пролив</h3><p>Точное время и температура.</p></article>
+        <article class="ritual-step reveal"><span>03</span><h3>Чашка</h3><p>В руки — и пауза начинается.</p></article>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <div class="gallery-head section-pad reveal">
+        <p class="eyebrow"><span></span> взгляд изнутри</p><span>01 — 03</span>
+      </div>
+      <div class="gallery">
+        <figure class="gallery-main reveal"><img src="assets/cafe-interior.jpeg" alt="Витрина"><figcaption>витрина / каждый день</figcaption></figure>
+        <figure class="gallery-small gallery-one reveal reveal-delay"><img src="assets/sunlight-interior.jpeg" alt="Свет"><figcaption>morning light</figcaption></figure>
+        <figure class="gallery-small gallery-two reveal"><video class="coffee-ritual-video" autoplay muted loop playsinline preload="metadata"><source src="assets/coffee-ritual-sequence.mp4" type="video/mp4"></video><figcaption>coffee ritual</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="reviews-section section-pad">
+      <div class="section-heading reveal"><div><p class="eyebrow"><span></span> голоса</p><h2>Не звёзды.<br><em>Слова.</em></h2></div></div>
+      <div class="reviews-grid">
+        <blockquote class="review-card reveal">«Прихожу за капучино и всегда ухожу с макароном.»<cite>— Аня</cite></blockquote>
+        <blockquote class="review-card reveal reveal-delay">«Тихо, светло, вкусно. Идеально открыть ноутбук на час.»<cite>— Максим</cite></blockquote>
+        <blockquote class="review-card reveal">«Розовый чай — это любовь. И круассаны ещё тёплые.»<cite>— Лера</cite></blockquote>
+      </div>
+    </section>
+
+    <section class="faq-section section-pad" id="faq">
+      <div class="section-heading reveal"><div><p class="eyebrow"><span></span> коротко</p><h2>Частые<br><em>вопросы.</em></h2></div></div>
+      <div class="faq-list">
+        <details class="faq-item reveal"><summary>Можно с ноутбуком?</summary><p>Да. Есть розетки у столиков у окна.</p></details>
+        <details class="faq-item reveal"><summary>Можно с собакой?</summary><p>Небольших спокойных собак — да, на поводке.</p></details>
+        <details class="faq-item reveal"><summary>Есть альтернативное молоко?</summary><p>Овсяное, миндальное, кокосовое — уточняйте у бариста.</p></details>
+        <details class="faq-item reveal"><summary>Заказ к определённому времени?</summary><p>Да — через форму или WhatsApp. Укажите, когда подойдёте.</p></details>
+      </div>
+    </section>
+
+    <section id="order" class="visit-section section-pad">
+      <div class="visit-panel order-panel reveal">
+        <div class="order-intro">
+          <p class="eyebrow"><span></span> онлайн-заказ</p>
+          <h2>Твой кофе.<br><em>Твой момент.</em></h2>
+          <p>Выбери напиток и что-нибудь к нему — подготовим к твоему приходу.</p>
+          <div class="order-mini-note">freshly made · made for you</div>
+        </div>
+        <form class="order-form" id="order-form">
+          <label class="order-field"><span>01 / напиток</span>
+            <select id="drink">
+              <option data-price="240">Капучино · 240 ₽</option>
+              <option data-price="270">Латте · 270 ₽</option>
+              <option data-price="190">Американо · 190 ₽</option>
+              <option data-price="280">Флэт уайт · 280 ₽</option>
+              <option data-price="260">Розовый чай · 260 ₽</option>
+              <option data-price="290">Матча · 290 ₽</option>
+              <option data-price="340">Тыквенный латте · 340 ₽</option>
+            </select>
+          </label>
+          <label class="order-field"><span>02 / к напитку</span>
+            <select id="pastry">
+              <option data-price="220">Круассан · 220 ₽</option>
+              <option data-price="280">Миндальный круассан · 280 ₽</option>
+              <option data-price="190">Макарон · 190 ₽</option>
+              <option data-price="230">Выпечка дня · 230 ₽</option>
+              <option data-price="0">Пока без выпечки</option>
+            </select>
+          </label>
+          <label class="order-field"><span>03 / заберу через</span>
+            <select id="pickup"><option>15 минут</option><option selected>30 минут</option><option>45 минут</option><option>1 час</option></select>
+          </label>
+          <label class="order-field"><span>04 / имя</span><input id="customer-name" type="text" placeholder="Твоё имя" required></label>
+          <label class="order-field"><span>05 / телефон</span><input id="customer-phone" type="tel" placeholder="+7 (___) ___-__-__" required></label>
+          <label class="legal-consent"><input type="checkbox" name="personal_data_consent" required> Согласен(на) на обработку персональных данных и принимаю <a href="../legal.html#privacy" target="_blank" rel="noopener">политику конфиденциальности</a> и <a href="../legal.html#terms" target="_blank" rel="noopener">пользовательское соглашение</a>.</label>
+          <div class="order-total"><span>Итого</span><strong id="order-total">460 ₽</strong></div>
+          <button class="button button-dark order-submit" type="submit">отправить в WhatsApp <span>↗︎</span></button>
+          <p class="order-feedback" id="order-feedback" aria-live="polite">Заказ уйдёт в WhatsApp. Номер сейчас демо — замените на свой в index.html и script.js.</p>
+        </form>
+      </div>
+    </section>
+
+    <section id="visit" class="contacts-section section-pad">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow"><span></span> как нас найти</p><h2>Ждём<br><em>в гости.</em></h2></div>
+        <p>Адрес, часы и карта.</p>
+      </div>
+      <div class="contacts-grid">
+        <div class="contact-card reveal">
+          <small>Адрес</small>
+          <h3>Москва, ул. Примерная, 12</h3>
+          <p>5 минут от метро. Вход со двора.</p>
+          <a class="text-link" href="https://maps.google.com/?q=Москва" target="_blank" rel="noopener">открыть карту <span>↗︎</span></a>
+        </div>
+        <div class="contact-card reveal reveal-delay">
+          <small>Часы</small>
+          <h3>07:30 — 22:00</h3>
+          <p>Каждый день. Заказы к приходу до 21:30.</p>
+        </div>
+        <div class="contact-card reveal">
+          <small>Связь</small>
+          <h3>WhatsApp & соцсети</h3>
+          <div class="social-row">
+            <a class="social-btn" href="https://wa.me/79000000000" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="social-btn" href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+            <a class="social-btn" href="https://t.me/" target="_blank" rel="noopener">Telegram</a>
+          </div>
+          <p class="contact-note">+7 (900) 000-00-00 · демо</p>
+        </div>
+      </div>
+      <div class="map-wrap reveal">
+        <iframe title="Карта SOLOKO" loading="lazy" src="https://maps.google.com/maps?q=Москва&output=embed"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-pad">
+    <a class="brand footer-brand" href="#top"><span>SOLO</span><i>KO</i></a>
+    <p>кофе • десерты • заказы к приходу</p>
+    <div class="footer-links"><a href="#order">заказ</a><a href="#visit">контакты</a><a href="#top">наверх ↑</a></div>
+  </footer>
+
+  <div class="modal" id="itemModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-item></div>
+    <div class="modal-box">
+      <button class="modal-close" type="button" data-close-item>×</button>
+      <p class="eyebrow" id="itemCat"><span></span> позиция</p>
+      <h2 id="itemTitle"></h2>
+      <p id="itemDesc" class="item-desc"></p>
+      <div class="item-meta">
+        <div><small>цена</small><b id="itemPrice"></b></div>
+        <div><small>аллергены</small><b id="itemAllergens"></b></div>
+        <div><small>детали</small><b id="itemNotes"></b></div>
+      </div>
+      <button class="button button-dark" type="button" id="itemOrderBtn">добавить в заказ <span>↗︎</span></button>
+    </div>
+  </div>
+
+  <a class="wa-float" href="https://wa.me/79000000000?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D0%B2%20SOLOKO" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+  <script src="script.js"></script>
+<script src="../shared/legal.js" defer></script>
+</body>
+</html>

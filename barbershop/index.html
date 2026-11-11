@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f2eee6">
+<title>БОРОДАТАЯ МАФИЯ — barbershop</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="cursor"></div>
+<header class="header">
+  <a class="logo" href="#top"><span class="logo-mark">БМ</span><span>БОРОДАТАЯ<br><b>МАФИЯ</b></span></a>
+  <nav>
+    <a href="#about">ФИЛОСОФИЯ</a><a href="#services">УСЛУГИ</a><a href="#works">РАБОТЫ</a><a href="#masters">МАСТЕРА</a><a href="#branches">АДРЕСА</a>
+  </nav>
+  <button class="header-book" data-book>ЗАПИСАТЬСЯ <span>↗︎</span></button>
+  <button class="theme-toggle" id="themeToggle" aria-label="Тема" title="Тема">◐</button>
+  <button class="burger" aria-label="Открыть меню">☰</button>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-media"><video autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1800&q=85"><source src="assets/process-01.mp4" type="video/mp4"></video></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-inner">
+    <div class="hero-kicker"><span>01</span><i></i><b>BARBERSHOP / CHELYABINSK</b></div>
+    <h1>НЕ ДЛЯ ВСЕХ.<br><em>ДЛЯ СВОИХ.</em></h1>
+    <div class="hero-3d-badge" aria-hidden="true">
+      <div class="badge-3d"><span>BM</span><small>EST. 2024</small></div>
+    </div>
+    <div class="hero-bottom">
+      <p>Стрижки, борода и характер.<br>Без лишнего шума.</p>
+      <button class="circle-btn" data-book>ЗАПИСАТЬСЯ <span>↗︎</span></button>
+    </div>
+  </div>
+  <div class="hero-side">EST. 2024<br><b>BM</b><br>GENTLEMEN<br>ONLY</div>
+  <div class="hero-scroll">SCROLL <span>↓</span></div>
+</section>
+
+<section class="slots-strip" id="slots">
+  <div class="slots-label"><span>СВОБОДНО СЕГОДНЯ</span><b id="slotsDate"></b></div>
+  <div class="slots-list" id="slotsList"></div>
+  <button class="slots-cta" data-book>ЗАПИСАТЬСЯ ↗︎</button>
+</section>
+
+<section class="statement" id="about">
+  <div class="section-number">01 / 05</div>
+  <div class="statement-copy">
+    <p class="eyebrow">ФИЛОСОФИЯ</p>
+    <h2>ХОРОШИЙ ОБРАЗ<br>НЕ ТРЕБУЕТ <em>ОБЪЯСНЕНИЙ.</em></h2>
+    <div class="statement-grid">
+      <p class="big-copy">Мы делаем мужские стрижки, которые выглядят уверенно сегодня и через месяц.</p>
+      <div><p>Точная техника, правильная форма, сильная команда и атмосфера закрытого клуба. Мы не копируем тренды — адаптируем их под человека.</p><a class="line-link" href="#services">СМОТРЕТЬ МЕНЮ <span>↗︎</span></a></div>
+    </div>
+  </div>
+</section>
+
+<section class="visual-break">
+  <div class="visual-image"><video autoplay muted loop playsinline><source src="assets/process-02.mp4" type="video/mp4"></video></div>
+  <div class="visual-label"><span>THE CRAFT</span><b>01</b></div>
+  <div class="visual-quote">«ФОРМА<br>РЕШАЕТ<br>ВСЁ.»</div>
+</section>
+
+<section class="services" id="services">
+  <div class="section-number">02 / 05</div>
+  <div class="section-head">
+    <div><p class="eyebrow">МЕНЮ</p><h2>УСЛУГИ<br><em>БЕЗ ВОДЫ.</em></h2></div>
+    <p>Выбирай задачу.<br>Мы отвечаем за результат.</p>
+  </div>
+  <div class="service-cards">
+    <article class="service-card tilt-3d" data-service-card="Мужская стрижка"><span>01</span><div><h3>МУЖСКАЯ<br>СТРИЖКА</h3><p>Консультация · форма · укладка</p></div><strong>45–60'</strong><button data-book>↗︎</button></article>
+    <article class="service-card featured tilt-3d" data-service-card="Комплекс: стрижка + борода"><span>02</span><div><h3>СТРИЖКА<br>+ БОРОДА</h3><p>Полный образ · моделирование · уход</p></div><strong>75–90'</strong><button data-book>↗︎</button></article>
+    <article class="service-card tilt-3d" data-service-card="Моделирование бороды"><span>03</span><div><h3>БОРОДА</h3><p>Контур · форма · горячее полотенце</p></div><strong>30–45'</strong><button data-book>↗︎</button></article>
+    <article class="service-card tilt-3d" data-service-card="Стрижка машинкой"><span>04</span><div><h3>МАШИНКА</h3><p>Чётко · быстро · без лишнего</p></div><strong>30'</strong><button data-book>↗︎</button></article>
+  </div>
+  <p class="price-note">* Точная стоимость зависит от выбранного мастера. Актуальный прайс уточняется при записи.</p>
+</section>
+
+
+
+<section class="works" id="works">
+  <div class="section-number">02B / 05</div>
+  <div class="section-head">
+    <div><p class="eyebrow">ПОРТФОЛИО</p><h2>РАБОТЫ<br><em>МАСТЕРОВ.</em></h2></div>
+    <p>Стрижки, бороды,<br>форма и характер.</p>
+  </div>
+  <div class="works-filters" id="worksFilters">
+    <button type="button" class="wf active" data-filter="all">ВСЕ</button>
+    <button type="button" class="wf" data-filter="cut">СТРИЖКИ</button>
+    <button type="button" class="wf" data-filter="beard">БОРОДЫ</button>
+    <button type="button" class="wf" data-filter="process">ПРОЦЕСС</button>
+  </div>
+  <div class="works-grid" id="worksGrid">
+    <figure class="work-card tilt-3d" data-cat="cut"><img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=800&q=85" alt="Fade" loading="lazy"><figcaption>Fade</figcaption></figure>
+    <figure class="work-card tilt-3d tall" data-cat="beard"><img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=85" alt="Инструменты" loading="lazy"><figcaption>Инструмент</figcaption></figure>
+    <figure class="work-card tilt-3d" data-cat="process"><img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=800&q=85" alt="Процесс" loading="lazy"><figcaption>В работе</figcaption></figure>
+    <figure class="work-card tilt-3d" data-cat="cut"><img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=85" alt="Классика" loading="lazy"><figcaption>Классика</figcaption></figure>
+    <figure class="work-card tilt-3d tall" data-cat="cut"><img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=800&q=85" alt="Текстура" loading="lazy"><figcaption>Текстура</figcaption></figure>
+    <figure class="work-card tilt-3d" data-cat="beard"><img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=800&q=85" alt="Борода" loading="lazy"><figcaption>Борода</figcaption></figure>
+    <figure class="work-card tilt-3d" data-cat="process"><img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=800&q=85" alt="Машинка" loading="lazy"><figcaption>Машинка</figcaption></figure>
+    <figure class="work-card tilt-3d" data-cat="cut"><img src="https://images.unsplash.com/photo-1567894340315-735d7c361db0?auto=format&fit=crop&w=800&q=85" alt="Стиль" loading="lazy"><figcaption>Стиль</figcaption></figure>
+  </div>
+</section>
+
+<section class="masters" id="masters">
+  <div class="section-number">03 / 05</div>
+  <div class="masters-top">
+    <div><p class="eyebrow">КОМАНДА</p><h2>ЛЮДИ,<br><em>КОТОРЫМ ДОВЕРЯЮТ.</em></h2></div>
+    <p>Не выбирай по рейтингу.<br>Выбирай по характеру.</p>
+  </div>
+  <div class="master-grid" id="masterGrid"></div>
+</section>
+
+<section class="locations" id="branches">
+  <div class="location-intro">
+    <div class="section-number">04 / 05</div>
+    <p class="eyebrow">ТЕРРИТОРИЯ</p>
+    <h2>ТРИ ТОЧКИ.<br><em>ОДИН ПОДХОД.</em></h2>
+    <p>В каждом филиале одинаковое отношение к деталям. Выбирай тот, что ближе.</p>
+  </div>
+  <div class="branch-grid" id="branchCards"></div>
+</section>
+
+<section class="manifesto">
+  <div class="manifesto-top"><span>05 / 05</span><span>БОРОДАТАЯ МАФИЯ®</span></div>
+  <div class="manifesto-word">СВОЙ<br><em>КРУГ.</em></div>
+  <div class="manifesto-bottom"><p>Здесь знают твоё имя.<br>Здесь знают, как тебе идёт.</p><button class="dark-btn" data-book>ЗАНЯТЬ КРЕСЛО <span>↗︎</span></button></div>
+</section>
+</main>
+
+<footer>
+  <a class="logo" href="#top"><span class="logo-mark">БМ</span><span>БОРОДАТАЯ<br><b>МАФИЯ</b></span></a>
+  <span>ЧЕЛЯБИНСК · 2026</span><a href="#top">НАВЕРХ ↑</a>
+</footer>
+
+<div class="profile-modal" id="profileModal" aria-hidden="true">
+  <div class="modal-backdrop" data-profile-close></div>
+  <div class="profile-box">
+    <button class="close" data-profile-close>×</button>
+    <div class="profile-photo"><img id="profileImage" src="assets/oleg.jpeg" alt=""></div>
+    <div class="profile-copy"><p class="eyebrow" id="profileRole"></p><h2 id="profileName"></h2><p class="profile-price" id="profilePrice"></p><p id="profileDescription"></p><p class="profile-specialty" id="profileSpecialty"></p><button class="dark-btn" id="profileBook">ЗАПИСАТЬСЯ К МАСТЕРУ ↗︎</button></div>
+  </div>
+</div>
+
+
+<div class="modal" id="serviceDetailModal" aria-hidden="true">
+  <div class="modal-backdrop" data-service-close></div>
+  <div class="modal-box service-detail-box">
+    <button class="close" data-service-close>×</button>
+    <p class="eyebrow" id="sdEyebrow">УСЛУГА</p>
+    <h2 id="sdTitle"></h2>
+    <p class="sd-lead" id="sdLead"></p>
+    <div class="sd-grid">
+      <div><small>ДЛИТЕЛЬНОСТЬ</small><b id="sdDuration"></b></div>
+      <div><small>ОТ</small><b id="sdPrice"></b></div>
+      <div><small>ИНСТРУМЕНТЫ</small><b id="sdTools"></b></div>
+      <div><small>УХОД</small><b id="sdCare"></b></div>
+    </div>
+    <div class="sd-block" id="sdExtraWrap" style="display:none"><small>ДЕТАЛИ</small><p id="sdExtra"></p></div>
+    <p class="sd-desc" id="sdDesc"></p>
+    <button class="dark-btn" id="sdBook">ЗАПИСАТЬСЯ НА ЭТУ УСЛУГУ ↗︎</button>
+  </div>
+</div>
+
+<div class="modal" id="bookingModal" aria-hidden="true">
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-box">
+    <button class="close" data-close>×</button>
+    <p class="eyebrow">ОНЛАЙН-ЗАПИСЬ</p><h2>ЗАБРОНИРУЙ<br><em>СВОЁ КРЕСЛО.</em></h2>
+    <form id="bookingForm">
+      <label>ФИЛИАЛ<select id="bookingBranch"></select></label>
+      <label>МАСТЕР<select id="bookingMaster"></select></label>
+      <label>УСЛУГА<select id="bookingService"></select></label>
+      <div class="form-row"><label>ДАТА<input type="date" id="bookingDate" required></label><label>ВРЕМЯ<select id="bookingTime" required></select></label></div>
+      <p class="availability-note" id="bookingAvailability">Выберите дату, чтобы посмотреть варианты времени.</p>
+      <label>ИМЯ<input id="clientName" placeholder="Как к тебе обращаться?" required></label>
+      <label>ТЕЛЕФОН<input id="clientPhone" type="tel" placeholder="+7 (___) ___-__-__" required></label>
+      <label class="legal-consent"><input type="checkbox" name="personal_data_consent" required> Согласен(на) на обработку персональных данных и принимаю <a href="../legal.html#privacy" target="_blank" rel="noopener">политику конфиденциальности</a> и <a href="../legal.html#terms" target="_blank" rel="noopener">пользовательское соглашение</a>.</label>
+      <button class="dark-btn submit" type="submit">ПОДТВЕРДИТЬ ↗︎</button>
+      <p class="booking-price" id="bookingPrice">Стоимость: уточняется у администратора.</p><p class="form-hint">Доступные варианты времени предварительные. Фактическую занятость и стоимость подтвердит администратор при получении заявки.</p>
+    </form>
+    <div class="success" id="bookingSuccess"><div>✓</div><h3>ГОТОВО.</h3><p id="successText"></p><button class="dark-btn" data-close>ЗАКРЫТЬ</button></div>
+  </div>
+</div>
+<a class="wa-float" href="https://wa.me/79000000000?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%B2%20%D0%91%D0%BE%D1%80%D0%BE%D0%B4%D0%B0%D1%82%D1%83%D1%8E%20%D0%9C%D0%B0%D1%84%D0%B8%D1%8E" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+<script src="script.js"></script>
+<script src="../shared/legal.js" defer></script>
+</body>
+</html>

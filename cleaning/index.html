@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#eef8fc">
+<meta name="description" content="Профессиональная химчистка мебели, матрасов, ковров и салона автомобиля. Бережно, глубоко, с гарантией результата.">
+<title>ЧИСТО — химчистка с заботой о вещах</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-follower" id="cursorFollower"></div>
+
+<!-- Global soap bubbles background -->
+<div class="global-bubbles" aria-hidden="true">
+  <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+  <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+</div>
+
+<div class="topline">
+  <span>Работаем ежедневно · 09:00—21:00</span>
+  <span>Выезд по городу и области <b>↗︎</b></span>
+</div>
+
+<header class="header">
+  <a class="logo" href="#top">
+    <span class="logo-mark">Ч</span>
+    <span>ЧИСТО<small>СЕРВИС ХИМЧИСТКИ</small></span>
+  </a>
+  <nav id="nav">
+    <a href="#services">Услуги</a>
+    <a href="#calculator">Калькулятор</a>
+    <a href="#gallery">До/После</a>
+    <a href="#about">О нас</a>
+    <a href="#faq">Вопросы</a>
+    <a href="#reviews">Отзывы</a>
+  </nav>
+  <a class="head-phone" href="tel:+79990000000">+7 (999) 000-00-00</a>
+  <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему" title="Тема">◐</button>
+  <button class="menu" aria-label="Открыть меню">☰</button>
+  <a class="button button-dark head-cta" href="#booking">Вызвать мастера <span>↗︎</span></a>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-copy">
+      <div class="eyebrow"><i></i> ПРОФЕССИОНАЛЬНАЯ ХИМЧИСТКА</div>
+      <h1>ЧИСТОТА,<br>КОТОРУЮ <em>ВИДНО.</em></h1>
+      <p class="hero-lead">Возвращаем любимым вещам свежесть, цвет и ощущение нового. Глубокая чистка мебели и текстиля у вас дома.</p>
+      <div class="hero-actions">
+        <a class="button button-lime" href="#booking">Рассчитать стоимость <span>↗︎</span></a>
+        <a class="text-link" href="#services">Выбрать услугу <span>↓</span></a>
+      </div>
+      <div class="hero-proof">
+        <div class="avatars"><b>А</b><b>М</b><b>И</b></div>
+        <div><strong>4.9 / 5</strong><small>Оценка клиентов · 380+ отзывов</small></div>
+        <div class="proof-divider"></div>
+        <div><strong>2 400+</strong><small>Чистых интерьеров</small></div>
+      </div>
+    </div>
+    <div class="hero-visual" data-parallax>
+      <div class="hero-photo"></div>
+      <div class="soap-bubbles" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      </div>
+      <div class="photo-tag"><span class="tag-dot"></span> ДО / ПОСЛЕ <b>01—06</b></div>
+      <div class="round-stamp"><span>ЧИСТО • БЕРЕЖНО • ПРОФЕССИОНАЛЬНО • </span><strong>100%</strong></div>
+      <div class="hero-caption"><span>01 / 06</span><span>Свежесть начинается с деталей.</span></div>
+    </div>
+    <div class="hero-vertical">CLEAN SPACE · CLEAR MIND</div>
+  </section>
+
+  <div class="ticker"><div>ЧИСТИМ ГЛУБОКО <b class="sparkle-mark" aria-hidden="true"><svg class="sparkle-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 14.2 9.8 21.5 12l-7.3 2.2L12 21.5l-2.2-7.3L2.5 12l7.3-2.2L12 2.5Z"/></svg></b> СОХРАНЯЕМ ТКАНЬ <b class="sparkle-mark" aria-hidden="true"><svg class="sparkle-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 14.2 9.8 21.5 12l-7.3 2.2L12 21.5l-2.2-7.3L2.5 12l7.3-2.2L12 2.5Z"/></svg></b> УДАЛЯЕМ ЗАПАХИ <b class="sparkle-mark" aria-hidden="true"><svg class="sparkle-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 14.2 9.8 21.5 12l-7.3 2.2L12 21.5l-2.2-7.3L2.5 12l7.3-2.2L12 2.5Z"/></svg></b> ЗАБОТИМСЯ О ДОМЕ <b class="sparkle-mark" aria-hidden="true"><svg class="sparkle-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 14.2 9.8 21.5 12l-7.3 2.2L12 21.5l-2.2-7.3L2.5 12l7.3-2.2L12 2.5Z"/></svg></b> ЧИСТИМ ГЛУБОКО <b class="sparkle-mark" aria-hidden="true"><svg class="sparkle-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 14.2 9.8 21.5 12l-7.3 2.2L12 21.5l-2.2-7.3L2.5 12l7.3-2.2L12 2.5Z"/></svg></b> СОХРАНЯЕМ ТКАНЬ <b class="sparkle-mark" aria-hidden="true"><svg class="sparkle-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 14.2 9.8 21.5 12l-7.3 2.2L12 21.5l-2.2-7.3L2.5 12l7.3-2.2L12 2.5Z"/></svg></b></div></div>
+
+  <section class="section services" id="services">
+    <div class="bubble-wash" aria-hidden="true"></div>
+    <div class="section-head">
+      <div>
+        <div class="eyebrow"><i></i> ЧТО МЫ ЧИСТИМ</div>
+        <h2>ВЕЩИ ЗАСЛУЖИВАЮТ<br><em>ВТОРОЙ СВЕЖЕСТИ.</em></h2>
+      </div>
+      <p>Подбираем технологию под материал, тип загрязнения и задачу. Никаких универсальных решений — только аккуратная работа.</p>
+    </div>
+    <div class="service-grid">
+      <article class="service-card service-main">
+        <div class="service-img sofa"></div>
+        <div class="service-content">
+          <span>01 / МЕБЕЛЬ</span>
+          <h3>Диваны<br>и кресла</h3>
+          <p>Глубокая экстракторная чистка обивки, подлокотников и труднодоступных зон.</p>
+          <div class="service-bottom"><b>от 2 500 ₽</b><a href="#booking" aria-label="Заказать чистку дивана">↗︎</a></div>
+        </div>
+      </article>
+      <article class="service-card">
+        <div class="service-img mattress"></div>
+        <div class="service-content">
+          <span>02 / СПАЛЬНЯ</span>
+          <h3>Матрасы</h3>
+          <p>Удаляем пыль, пятна и неприятные запахи.</p>
+          <div class="service-bottom"><b>от 1 800 ₽</b><a href="#booking">↗︎</a></div>
+        </div>
+      </article>
+      <article class="service-card">
+        <div class="service-img carpet"></div>
+        <div class="service-content">
+          <span>03 / ТЕКСТИЛЬ</span>
+          <h3>Ковры</h3>
+          <p>Освежаем ворс и возвращаем яркость цвета.</p>
+          <div class="service-bottom"><b>от 900 ₽/м²</b><a href="#booking">↗︎</a></div>
+        </div>
+      </article>
+      <article class="service-card">
+        <div class="service-img car"></div>
+        <div class="service-content">
+          <span>04 / АВТО</span>
+          <h3>Салон авто</h3>
+          <p>Чистим сиденья, потолок, ковролин и пластик.</p>
+          <div class="service-bottom"><b>от 3 500 ₽</b><a href="#booking">↗︎</a></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section calculator" id="calculator">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow"><i></i> ОНЛАЙН-РАСЧЁТ</div>
+        <h2>УЗНАЙТЕ СТОИМОСТЬ<br><em>ЗА 30 СЕКУНД.</em></h2>
+      </div>
+      <p>Выберите услугу и параметры — получите ориентировочную цену. Точную стоимость подтвердим после осмотра.</p>
+    </div>
+    <div class="calc-card glass">
+      <div class="calc-fields">
+        <label>
+          <span>Что чистим</span>
+          <select id="calcService">
+            <option value="sofa">Диван / кресло</option>
+            <option value="mattress">Матрас</option>
+            <option value="carpet">Ковёр</option>
+            <option value="car">Салон автомобиля</option>
+          </select>
+        </label>
+        <label id="sizeLabel">
+          <span>Размер / тип</span>
+          <select id="calcSize">
+            <option value="2500">2-местный (от 2 500 ₽)</option>
+            <option value="3200">3-местный (от 3 200 ₽)</option>
+            <option value="4500">Угловой (от 4 500 ₽)</option>
+            <option value="1500">Кресло (от 1 500 ₽)</option>
+          </select>
+        </label>
+        <label id="areaLabel" class="hidden">
+          <span>Площадь (м²)</span>
+          <input type="number" id="calcArea" min="1" max="50" value="6" step="0.5">
+        </label>
+        <label>
+          <span>Сложность загрязнения</span>
+          <select id="calcDirt">
+            <option value="1">Обычное</option>
+            <option value="1.25">Среднее (+25%)</option>
+            <option value="1.5">Сильное (+50%)</option>
+          </select>
+        </label>
+      </div>
+      <div class="calc-result">
+        <div class="calc-price">
+          <small>Ориентировочно</small>
+          <strong id="calcPrice">2 500 ₽</strong>
+        </div>
+        <a class="button button-lime" href="#booking" id="calcToForm">Оставить заявку <span>↗︎</span></a>
+        <p class="calc-note">Цена может измениться после осмотра. Без скрытых доплат.</p>
+      </div>
+    </div>
+  </section>
+
+    <section class="section gallery" id="gallery">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow"><i></i> РЕЗУЛЬТАТЫ</div>
+        <h2>ДО И ПОСЛЕ —<br><em>БЕЗ СЛОВ.</em></h2>
+      </div>
+      <p>Тяните ползунок: слева — до чистки, справа — после. Один и тот же предмет.</p>
+    </div>
+    <div class="ba-grid">
+      <div class="ba-item">
+        <div class="ba-slider" data-ba>
+          <div class="ba-before" style="background-image:url('images/sofa-after.jpg')"></div>
+          <div class="ba-after" style="background-image:url('images/sofa-before.jpg')"></div>
+          <div class="ba-handle"><span></span></div>
+          <div class="ba-labels"><span>ДО</span><span>ПОСЛЕ</span></div>
+        </div>
+        <p>Диван · удаление пятен и загрязнений</p>
+      </div>
+      <div class="ba-item">
+        <div class="ba-slider" data-ba>
+          <div class="ba-before" style="background-image:url('images/mattress-after.jpg')"></div>
+          <div class="ba-after" style="background-image:url('images/mattress-before.jpg')"></div>
+          <div class="ba-handle"><span></span></div>
+          <div class="ba-labels"><span>ДО</span><span>ПОСЛЕ</span></div>
+        </div>
+        <p>Матрас · глубокая чистка</p>
+      </div>
+      <div class="ba-item">
+        <div class="ba-slider" data-ba>
+          <div class="ba-before" style="background-image:url('images/carpet-after.jpg')"></div>
+          <div class="ba-after" style="background-image:url('images/carpet-before.jpg')"></div>
+          <div class="ba-handle"><span></span></div>
+          <div class="ba-labels"><span>ДО</span><span>ПОСЛЕ</span></div>
+        </div>
+        <p>Ковёр · восстановление цвета и свежести</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section why" id="why">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow"><i></i> ПОЧЕМУ МЫ</div>
+        <h2>НЕ ПРОСТО ЧИСТИМ.<br><em>ЗАБОТИМСЯ.</em></h2>
+      </div>
+    </div>
+    <div class="why-grid">
+      <div class="why-card glass">
+        <div class="why-icon">◈</div>
+        <h3>Безопасная химия</h3>
+        <p>Подбираем составы под ткань. Без резкого запаха, безопасно для детей и животных.</p>
+      </div>
+      <div class="why-card glass">
+        <div class="why-icon">◷</div>
+        <h3>Выезд в день обращения</h3>
+        <p>Работаем ежедневно с 9 до 21. Часто можем приехать уже сегодня.</p>
+      </div>
+      <div class="why-card glass">
+        <div class="why-icon">✓</div>
+        <h3>Гарантия результата</h3>
+        <p>Если пятно осталось — переделаем бесплатно. Фиксируем результат вместе с вами.</p>
+      </div>
+      <div class="why-card glass">
+        <div class="why-icon">◎</div>
+        <h3>Бережное оборудование</h3>
+        <p>Профессиональные экстракторы и парогенераторы. Не портим обивку и ворс.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="manifesto" id="about">
+    <div class="manifesto-image">
+      <div class="image-note">ЧИСТОТА — ЭТО НЕ ПРОСТО ВИД.</div>
+    </div>
+    <div class="manifesto-copy">
+      <div class="eyebrow"><i></i> НАШ ПОДХОД</div>
+      <h2>МЫ НЕ МАСКИРУЕМ.<br><em>МЫ ОЧИЩАЕМ.</em></h2>
+      <p>Работаем на профессиональном оборудовании и используем безопасную химию, подобранную под конкретную ткань. Бережно относимся к вашему дому и времени.</p>
+      <div class="stats">
+        <div><strong>7<span>+</span></strong><small>лет опыта</small></div>
+        <div><strong>2.4<span>к</span></strong><small>довольных клиентов</small></div>
+        <div><strong>24<span>ч</span></strong><small>до свежего результата</small></div>
+      </div>
+      <a class="button button-outline" href="#process">Наш процесс <span>↗︎</span></a>
+    </div>
+  </section>
+
+  <section class="process section" id="process">
+    <div class="eyebrow"><i></i> ПРОСТО И ПОНЯТНО</div>
+    <div class="section-head">
+      <h2>ЧЕТЫРЕ ШАГА<br><em>К ЧИСТОТЕ.</em></h2>
+      <p>От первого сообщения до чистого пространства — без лишних хлопот.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><span>01</span><div class="step-icon"><svg class="sparkle-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 14.2 9.8 21.5 12l-7.3 2.2L12 21.5l-2.2-7.3L2.5 12l7.3-2.2L12 2.5Z"/></svg></div><h3>Заявка</h3><p>Оставляете заявку или отправляете фото вещи.</p></div>
+      <div class="step"><span>02</span><div class="step-icon">⌕</div><h3>Оценка</h3><p>Уточняем материал, загрязнения и стоимость.</p></div>
+      <div class="step"><span>03</span><div class="step-icon">✧</div><h3>Чистка</h3><p>Приезжаем вовремя и бережно выполняем работу.</p></div>
+      <div class="step"><span>04</span><div class="step-icon">✓</div><h3>Результат</h3><p>Проверяем результат вместе с вами.</p></div>
+    </div>
+  </section>
+
+  <section class="section fabrics">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow"><i></i> МАТЕРИАЛЫ</div>
+        <h2>РАБОТАЕМ С РАЗНЫМИ<br><em>ТКАНЯМИ.</em></h2>
+      </div>
+      <p>Под каждый тип обивки и текстиля — своя технология и химия.</p>
+    </div>
+    <div class="fabric-tags">
+      <span>Микрофибра</span><span>Велюр</span><span>Рогожка</span><span>Шенилл</span>
+      <span>Экокожа</span><span>Натуральная кожа</span><span>Шерсть</span><span>Шёлк</span>
+      <span>Жаккард</span><span>Флок</span><span>Твид</span><span>Лён</span>
+    </div>
+  </section>
+
+  <section class="guarantee">
+    <div class="guarantee-inner glass">
+      <div class="guarantee-badge">100%</div>
+      <div>
+        <h2>ГАРАНТИЯ РЕЗУЛЬТАТА</h2>
+        <p>Если после чистки осталось видимое загрязнение, которое можно было удалить — мы вернёмся и переделаем работу бесплатно. Фиксируем состояние «до» и «после» вместе с вами.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="booking" id="booking">
+    <div class="booking-bubbles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="booking-copy">
+      <div class="eyebrow"><i></i> ОСТАВИТЬ ЗАЯВКУ</div>
+      <h2>ДАВАЙТЕ<br>ВЕРНЁМ <em>СВЕЖЕСТЬ.</em></h2>
+      <p>Расскажите, что нужно почистить. Можно прикрепить фото — так оценка будет точнее. Мы свяжемся, уточним детали и сориентируем по стоимости.</p>
+      <div class="booking-contact">
+        <span>ЕСТЬ ВОПРОСЫ?</span>
+        <a href="tel:+79990000000">+7 (999) 000-00-00 ↗︎</a>
+      </div>
+    </div>
+    <form class="booking-form glass" id="leadForm">
+      <label>Как к вам обращаться
+        <input name="name" placeholder="Ваше имя" required>
+      </label>
+      <label>Номер телефона
+        <input name="phone" type="tel" placeholder="+7 (___) ___-__-__" required>
+      </label>
+      <label>Что будем чистить
+        <select name="service" id="formService">
+          <option>Диван или кресло</option>
+          <option>Матрас</option>
+          <option>Ковёр</option>
+          <option>Салон автомобиля</option>
+          <option>Другое</option>
+        </select>
+      </label>
+      <label class="file-label">
+        <span>Фото загрязнения (необязательно)</span>
+        <div class="file-drop" id="fileDrop">
+          <input type="file" name="photo" id="photoInput" accept="image/*" multiple>
+          <span class="file-text">Перетащите фото сюда или нажмите</span>
+          <span class="file-preview" id="filePreview"></span>
+        </div>
+      </label>
+      <label>Комментарий
+        <textarea name="comment" rows="2" placeholder="Опишите задачу (необязательно)"></textarea>
+      </label>
+      <button class="button button-lime" type="submit">Отправить заявку <span>↗︎</span></button>
+      <label class="legal-consent"><input type="checkbox" name="personal_data_consent" required> Согласен(на) на обработку персональных данных и принимаю <a href="../legal.html#privacy" target="_blank" rel="noopener">политику конфиденциальности</a> и <a href="../legal.html#terms" target="_blank" rel="noopener">пользовательское соглашение</a>.</label>
+      <p class="form-result" aria-live="polite"></p>
+    </form>
+  </section>
+
+  <section class="section faq" id="faq">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow"><i></i> ЧАСТЫЕ ВОПРОСЫ</div>
+        <h2>ОТВЕТЫ,<br><em>КОТОРЫЕ НУЖНЫ.</em></h2>
+      </div>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>Сколько сохнет мебель после чистки?</summary>
+        <p>Обычно 4–8 часов в зависимости от ткани, влажности и температуры в помещении. Можно ускорить проветриванием и вентиляторами. Мы всегда подсказываем, когда лучше пользоваться вещью.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Безопасно ли для детей и животных?</summary>
+        <p>Да. Мы используем профессиональную химию с низким содержанием ЛОС и без резкого запаха. После высыхания поверхность безопасна. При аллергиях можем подобрать максимально мягкий состав.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Можно ли удалить старые пятна?</summary>
+        <p>Во многих случаях — да. Результат зависит от типа пятна, ткани и того, как долго оно было. Мы всегда честно говорим, что реально вывести, а что только осветлить.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Нужно ли освобождать комнату?</summary>
+        <p>Достаточно освободить доступ к мебели. Крупные предметы мы аккуратно отодвигаем сами. После работы оставляем чисто.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Как формируется цена?</summary>
+        <p>По типу изделия, размеру, состоянию и сложности загрязнений. Ориентир можно получить в калькуляторе на сайте. Точную стоимость называем после осмотра или фото — без скрытых доплат.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Работаете ли вы с кожей и экокожей?</summary>
+        <p>Да. Для кожи используем специальные очищающие и питательные составы, которые не пересушивают материал.</p>
+      </details>
+    </div>
+  </section>
+
+  <section class="section zone" id="zone">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow"><i></i> ГЕОГРАФИЯ</div>
+        <h2>ЗОНА<br><em>ВЫЕЗДА.</em></h2>
+      </div>
+      <p>Работаем по городу и ближайшим районам. Выезд за МКАД — по согласованию.</p>
+    </div>
+    <div class="zone-card glass">
+      <div class="zone-map">
+        <div class="zone-pin"></div>
+        <div class="zone-rings"><i></i><i></i><i></i></div>
+        <span class="zone-label">Москва и область</span>
+      </div>
+      <div class="zone-info">
+        <h3>Куда приезжаем</h3>
+        <ul>
+          <li>Москва (все округа)</li>
+          <li>Ближнее Подмосковье (до 30 км)</li>
+          <li>Дальше — по договорённости</li>
+        </ul>
+        <p class="zone-note">Точное время приезда согласуем при подтверждении заявки. Часто можем в день обращения.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews section" id="reviews">
+    <div class="eyebrow"><i></i> НАМ ДОВЕРЯЮТ</div>
+    <div class="section-head">
+      <h2>СЛОВА, КОТОРЫЕ<br><em>ГОВОРЯТ САМИ.</em></h2>
+      <div class="review-score">★★★★★ <b>4.9 / 5</b></div>
+    </div>
+    <div class="review-grid">
+      <blockquote>«Диван как будто помолодел лет на пять. Очень аккуратная работа, приятный мастер, никаких резких запахов.»<footer>АННА · ЧИСТКА ДИВАНА</footer></blockquote>
+      <blockquote>«Удалили старые пятна, которые я уже не надеялся вывести. Всё объяснили до начала работы, цена не изменилась.»<footer>МИХАИЛ · ЧИСТКА МАТРАСА</footer></blockquote>
+      <blockquote>«Приехали вовремя, быстро и чисто. Ковёр снова яркий, ворс мягкий. Обязательно обращусь ещё.»<footer>ЕЛЕНА · ЧИСТКА КОВРА</footer></blockquote>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <a class="logo" href="#top">
+    <span class="logo-mark">Ч</span>
+    <span>ЧИСТО<small>СЕРВИС ХИМЧИСТКИ</small></span>
+  </a>
+  <span>ЧИСТОТА, КОТОРУЮ ВИДНО.</span>
+  <a href="#top">НАВЕРХ ↑</a>
+  <small>© 2026 ЧИСТО. ВСЕ ПРАВА ЗАЩИЩЕНЫ.</small>
+</footer>
+
+<a class="wa-float" href="https://wa.me/79990000000?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D1%83%D0%B7%D0%BD%D0%B0%D1%82%D1%8C%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D1%85%D0%B8%D0%BC%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B8" target="_blank" rel="noopener" aria-label="Написать в WhatsApp">
+  <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script src="script.js"></script>
+<script src="../shared/legal.js" defer></script>
+</body>
+</html>
